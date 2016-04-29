@@ -1,6 +1,6 @@
 #include "main.h"
-#include "fruit.h"
-#include "dairy.h"
+#include "fruit/fruit.h"
+#include "dairy/dairy.h"
 
 #include <stdio.h>
 
