@@ -16,8 +16,10 @@ ifneq ($(DEBUG),)
 CFLAGS += -O3
 else
 CFLAGS += -O0 -ggdb3
+#CFLAGS += -DDEBUG
 LDFLAGS += -ggdb3
 endif
+
 
 # place for generated files (objects, deps, etc.)
 GEN=gen
@@ -57,4 +59,4 @@ ifeq ($(DEBUG),)
 		strip -s $@
 endif
 
-# vim: set noet ts=8 sw=8 list:
+# vim: set noet ts=8 sw=8:
