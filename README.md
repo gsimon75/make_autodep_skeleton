@@ -1,4 +1,4 @@
-# Auto-dependency project skeleton for C++ and make
+# A make-based project skeleton for C++ with automatic dependency tracking
 
 Though `make` is decades old, it's **still** the most effective build orchestrating tool, as it re-builds precisely
 the obsoleted components only, so no matter how much changes you make, only the affected parts will be re-built.
